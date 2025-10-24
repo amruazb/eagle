@@ -14,7 +14,7 @@ const About = () => {
           {/* Header */}
           <div className="text-center mb-20">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-              About Elite Universe
+              About EAGLESTAR OILFIELD SUPPLIES - L.L.C
             </h2>
             <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">

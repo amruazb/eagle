@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import eliteLogo from "@/assets/elite-logo.png";
+import eagleLogo from "/eagle-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,13 +26,13 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <img 
-              src={eliteLogo} 
-              alt="Elite Universe Energy Services" 
+            <img
+              src={eagleLogo}
+              alt="EAGLESTAR OILFIELD SUPPLIES - L.L.C"
               className="h-12 w-auto"
             />
             <div>
-              <h1 className="text-xl font-bold text-primary">Elite Universe</h1>
+              <h1 className="text-xl font-bold text-primary">EAGLESTAR OILFIELD SUPPLIES - L.L.C</h1>
               <p className="text-xs text-muted-foreground">Energy Services</p>
             </div>
           </div>

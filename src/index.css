@@ -8,50 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Corporate Elite Energy Theme */
+    /* EAGLESTAR Gold & White Theme */
     --background: 0 0% 100%;
-    --foreground: 215 60% 20%;
+    --foreground: 45 15% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 60% 20%;
+    --card-foreground: 45 15% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 60% 20%;
+    --popover-foreground: 45 15% 20%;
 
-    /* Deep Blue Primary - #004080 */
-    --primary: 210 100% 25%;
+    /* Rich Gold Primary - #D4AF37 (Classic Gold) */
+    --primary: 45 75% 52%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 210 80% 40%;
-    --primary-dark: 210 100% 15%;
+    --primary-light: 45 85% 65%;
+    --primary-dark: 45 65% 40%;
 
-    /* Fresh Green Accent - #00B050 */
-    --accent: 140 100% 35%;
+    /* Deep Gold Accent - #B8860B (Dark Goldenrod) */
+    --accent: 43 74% 38%;
     --accent-foreground: 0 0% 100%;
-    --accent-light: 140 80% 50%;
-    --accent-dark: 140 100% 25%;
+    --accent-light: 43 80% 50%;
+    --accent-dark: 43 70% 28%;
 
-    --secondary: 210 20% 95%;
-    --secondary-foreground: 215 60% 20%;
+    --secondary: 45 20% 95%;
+    --secondary-foreground: 45 15% 20%;
 
-    --muted: 210 20% 96%;
-    --muted-foreground: 215 20% 50%;
+    --muted: 45 15% 96%;
+    --muted-foreground: 45 10% 50%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 20% 90%;
-    --input: 210 20% 90%;
-    --ring: 210 100% 25%;
+    --border: 45 20% 90%;
+    --input: 45 20% 90%;
+    --ring: 45 75% 52%;
 
-    /* Corporate gradients */
+    /* Gold gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
     --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--accent-light)));
     --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-light)) 50%, hsl(var(--accent)) 100%);
-    
-    /* Corporate shadows */
-    --shadow-corporate: 0 10px 30px -10px hsl(var(--primary) / 0.15);
-    --shadow-card: 0 4px 20px -4px hsl(var(--primary) / 0.1);
-    --shadow-accent: 0 0 30px hsl(var(--accent) / 0.3);
+
+    /* Gold shadows */
+    --shadow-corporate: 0 10px 30px -10px hsl(var(--primary) / 0.2);
+    --shadow-card: 0 4px 20px -4px hsl(var(--primary) / 0.15);
+    --shadow-accent: 0 0 30px hsl(var(--accent) / 0.4);
 
     --radius: 0.5rem;
 

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Mail, Linkedin } from "lucide-react";
-import eliteLogo from "@/assets/elite-logo.png";
+import eagleLogo from "/eagle-logo.png";
 
 const Footer = () => {
   const footerLinks = [
@@ -28,13 +28,13 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <img 
-                src={eliteLogo} 
-                alt="Elite Universe Energy Services Logo" 
+              <img
+                src={eagleLogo}
+                alt="EAGLESTAR OILFIELD SUPPLIES - L.L.C Logo"
                 className="h-12 w-auto object-contain"
               />
               <div>
-                <h3 className="text-2xl font-bold">Elite Universe</h3>
+                <h3 className="text-2xl font-bold">EAGLESTAR OILFIELD SUPPLIES - L.L.C</h3>
                 <p className="text-white/80">Energy Services</p>
               </div>
             </div>
@@ -111,7 +111,7 @@ const Footer = () => {
         <div className="border-t border-white/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-white/80 text-sm">
-              © 2024 Elite Universe Energy Services. All rights reserved.
+              © 2024 EAGLESTAR OILFIELD SUPPLIES - L.L.C. All rights reserved.
             </div>
             <div className="flex items-center space-x-6">
               <button
